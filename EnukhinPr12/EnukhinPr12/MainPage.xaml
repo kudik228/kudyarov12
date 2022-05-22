@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EnukhinPr12.MainPage">
+
+    <AbsoluteLayout>
+        <Grid x:Name="grid" AbsoluteLayout.LayoutBounds="10, 150" HorizontalOptions="Center" VerticalOptions="Center">
+        </Grid>
+
+        <Button Text="Нажмите на кнопку для вывода чисел Фибоначчи" Clicked="OnButtonClicked" AbsoluteLayout.LayoutBounds="50, 200, 300, 70" 
+                BackgroundColor="Black" BorderColor="Aqua" BorderWidth="5" TextColor="White"/>
+    </AbsoluteLayout>
+</ContentPage>
